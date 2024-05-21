@@ -1,0 +1,18 @@
+Program-1:Write a JDBC program to register(insert) the user details into database.
+----------
+Table->UserDetails
+-------
+Hints:Take some property of user using Scanner class-
+-----    
+properties=> userName,Password,uFName,uLName,mailId,phNumber.
+
+case1- If user data inserted successfully then print one message "User registration Successfull" else
+------- 
+"Invalid Process". 
+
+Program2=> Write a JDBC program to perform Login Operation on user data.
+--------
+Hints:Suppose U inserted 5 user details into database.Now in login process if any user(which is already registered into database) will enter his username and password then it will check that this username and password user is available in database or not.If available then u will print "login Successfull" else "invalid user". 
+
+Note:U will perform this operation using PreparedStatement Interface.
+
